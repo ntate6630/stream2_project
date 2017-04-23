@@ -11,7 +11,7 @@ DBS_NAME = os.getenv('MONGO_DB_NAME', 'donorsUSA')
 
 
 #MONGODB_HOST = 'localhost'
-#MONGODB_HOST = "mongodb://heroku_73552t81:u7acmf51eshP"
+#MONGODB_HOST = "mongodb://heroku_73552t81:password"
 #MONGODB_PORT = 27017
 #MONGODB_PORT = 43900/heroku_73552t81
 #DBS_NAME = 'donorsUSA'
