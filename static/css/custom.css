@@ -37,9 +37,9 @@
 }
 
 #net-donations {
+   position: relative;
    background: #33CC99;
    width: 200px;
-   position: relative;
    height: 60px;
    font-size: 29px;
    color: white;

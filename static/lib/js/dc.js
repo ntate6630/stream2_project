@@ -6161,6 +6161,7 @@ an HTML <select/> menu. The menu can be optionally turned into a multiselect.
    })
  ```
  **/
+//******************************************************************
 dc.selectMenu = function (parent, chartGroup) {
     var SELECT_CSS_CLASS = 'dc-select-menu';
     var OPTION_CSS_CLASS = 'dc-select-option';
@@ -6183,7 +6184,7 @@ dc.selectMenu = function (parent, chartGroup) {
     _chart.data(function (group) {
         return group.all().filter(_filterDisplayed);
     });
-
+//******************************************************************
     _chart._doRender = function () {
         _chart.select('select').remove();
         _select = _chart.root().append('select')
